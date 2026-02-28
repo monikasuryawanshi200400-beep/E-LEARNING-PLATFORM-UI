@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background: #ff6b6b;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.courses {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.course-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6b6b;
+}
+
+.video {
+    text-align: center;
+    margin: 20px;
+}
+
+.progress-box {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
